@@ -32,3 +32,7 @@ client:
   service:
     interest: itinerary-advisor-service-interest
 
+feign:
+  hystrix:
+    enabled: true
+
